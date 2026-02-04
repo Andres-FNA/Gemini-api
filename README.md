@@ -1,4 +1,4 @@
-<img width="1919" height="1002" alt="image" src="https://github.com/user-attachments/assets/f04dc5a3-09c0-4c77-816e-3e6287a13e1e" />Gemini-api para poder usar una API mediante Visual Studio Code usando Gemini IA
+Gemini-api para poder usar una API mediante Visual Studio Code usando Gemini IA
 Paso 1: Creación de carpeta y apertura de terminal
 
 Crear una carpeta en la cual usaremos la API que vamos a desarrollar. Esta carpeta se puede crear en cualquier parte del disco, evitando crearla dentro de “Documentos”. La carpeta puede llamarse gemini-api.
@@ -100,3 +100,5 @@ ejecutar_consulta()
 
 En este código importamos la librería google-genai, la cual utilizamos para conectarnos al modelo de Gemini, y python-dotenv, que nos permite leer la clave almacenada en el archivo .env.
 Luego cargamos la variable de entorno que contiene la API KEY, inicializamos el cliente de Gemini y creamos una función que envía una petición al modelo gemini-3-flash-preview. El texto enviado corresponde al prompt, que en este caso solicita una presentación breve del asistente de IA.
+
+<img width="1919" height="1002" alt="image" src="https://github.com/user-attachments/assets/f04dc5a3-09c0-4c77-816e-3e6287a13e1e" />
